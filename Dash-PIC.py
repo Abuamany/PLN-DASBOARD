@@ -80,8 +80,8 @@ def main():
         with st.sidebar:
             st.write("#")
             st.write("#")
-            st.video("https://www.youtube.com/watch?v=7i9j8M_zidA")
-            st.write("📋[Medium Blog](https://medium.com/@enricdomingo/code-the-omnichat-app-integrating-gpt-4o-your-python-chatgpt-d399b90d178e)")
+            #st.video("https://www.youtube.com/watch?v=7i9j8M_zidA")
+            #st.write("📋[Medium Blog](https://medium.com/@enricdomingo/code-the-omnichat-app-integrating-gpt-4o-your-python-chatgpt-d399b90d178e)")
 
     else:
         client = OpenAI(api_key=openai_api_key)
